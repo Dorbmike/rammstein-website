@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+/* @import url('https://fonts.google.com/specimen/Oswald?preview.text=ABOUT&preview.size=52&preview.text_type=custom'); */
+
+@font-face {
+    font-family: "rammstein";
+    src: url(/Fonts/rammstein.otf);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rodchenko';
+    src: url(/Fonts/rodchenko.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT America';
+    src: url(/Fonts/GT-America-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: GT America;
+    color: #555;
+    font-size: 18px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: rgba(206, 203, 203, 0.538);
+}
+
+.nav ul {
+    margin: 0
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-family: "rodchenko";
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
+    font-stretch: normal;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.262);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.index-main-header {
+    padding: 0px;
+}
+.main-header {
+    background-image: url(Images/2022-Rammstein-Header2.jpg);
+    background-color: rgba(0, 0, 0, 0.342);
+    background-blend-mode: multiply;
+    font-weight: normal;
+    font-style: normal;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+    
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 10vw;
+    font-stretch: normal;
+    padding-top: 25px;
+    font-family: "rammstein";
+    font-weight: normal;
+    color:rgba(255, 255, 255, 0.848)
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.band-name-in-the-end {
+    text-align: left;
+    margin: 0;
+    font-size: 4vw;
+    font-family: "rammstein";
+    font-stretch: normal;
+    font-weight: normal;
+    color:rgba(255, 255, 255, 0.848)
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900em;
+    margin: 0 auto; 
+    padding: 0 1.5em;
+    font-family: "GT America";
+    text-align: center;
+    font-size: 1em;
+    /* сверху 0 и auto это как лево право */
+}
+
+.section-header {
+    font-family: "GT America";
+    /* font-weight: normal; */
+    /* color:rgb(0, 0, 0); */
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-band-image {
+    float: left;
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer {
+    background-image: url(Images/rammstein-letaet.jpg);
+    padding: .25pm 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+/* .footer-nav li {
+    padding: 0 .2em;
+} */
+
+.footer-nav img {
+    width: 35px;
+    height: 35px;
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: center;
+    padding: 0.3em;
+    cursor: pointer;
+}
+
+
+.btn-header {
+    margin: 1em 12% 2em 15%;
+    color: rgb(227, 227, 227);
+    border: 2px solid #d85b2d;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.tour-font {
+    font-family: "GT America";
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+
+}
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;    
+}
+
+.tour-row:last-child {
+    border-bottom: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    font-weight: bold;
+    width: 18%;
+}
+
+.tour-city {
+    width: 25%;
+}
+
+.tour-arena {
+    width: 40%;
+}
+
+.tour-btn {
+    max-width: 12%;
+}
+
+.btn-primary {
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #695b5b;
+    background-color: #777;
+    border-radius: 5%;
+    font-size: calc(0.5em + 0.5vw);
+    font-weight: bold;
+}
+
+
+.btn-primary:hover {
+    background-color: #d85b2d;
+}
+
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1em;
+    color: #333;
+    
+}
+
+.cart-quantity {
+    width: 45%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1em;
+    
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.btn-danger {
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #d85b2d;
+}
+
+.cart-quantity-input {
+    height: 35px;
+    width: 50px;
+    border-radius: .5em;
+    border: 1px solid #d85b2d;
+    background-color: #eee;
+    text-align: center;
+    color: #333;
+    padding: 0;
+    font-size: 1em;
+    margin-right: 25px;
+}
+
+
+.cart-row:last-child {
+    border-bottom: 2px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    margin-right: 25px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    background-color: rgb(218, 131, 55);
+    border: none;
+    border-radius: .5em;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 10px 10px 45px auto;
+}
+
+
+
+
+
+
+
+
+
