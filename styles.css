@@ -59,7 +59,7 @@ html, body {
     font-size: calc(1em + 1vw);
     font-weight: bold;
     font-stretch: normal;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.262);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .main-nav li {
