@@ -103,7 +103,7 @@ function removeCartItem(event) {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase!')
+    alert('Remember...All I am Offering Is The Truth. Nothing More.')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
